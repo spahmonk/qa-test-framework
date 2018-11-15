@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.146647">
+<testcase classname="Test1" name="Scenario1" time="0.146647">
+<failure message="java.lang.NullPointerException&#10;&#9;at com.steps.MyStepdefs.iStartTest(MyStepdefs.java:16)&#10;&#9;at ✽.Given I start test(Test1.feature:4)&#10;"><![CDATA[Given I start test..........................................................failed
+Then I see result...........................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.steps.MyStepdefs.iStartTest(MyStepdefs.java:16)
+	at ✽.Given I start test(Test1.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
